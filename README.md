@@ -1,20 +1,24 @@
-✈️📊 New BI Project: Riyadh Air Performance Dashboard (Excel + SQL + Power BI)
+# Riyadh Air Dashboard | Excel, SQL & Power BI
 
-I am excited to share my latest Business Intelligence project, where I analyzed the operational and financial data for #RiyadhAir using a full data analytics stack!
+## 📌 Project Overview
+An end-to-end Business Intelligence (BI) project analyzing the financial and operational performance of "Riyadh Air". The project leverages **SQL** for data extraction and querying, **Excel** for preliminary data analysis, and **Power BI** for final data modeling and interactive visualization.
 
-🎯 Key Objectives:
-1️⃣ Financial Profit: Real-time tracking of net profits and financial health.
-2️⃣ Operating Efficiency: Monitoring fleet utilization and flight schedules.
-3️⃣ Reduce Cost: Pinpointing key opportunities for cost optimization.
-4️⃣ Account Maintenance: Aligning maintenance logs with resource management.
+---
 
-🛠️ The Technical Workflow & Tools Used:
-• SQL: Used for writing optimized queries to filter and extract raw operational data.
-• Excel: Used for initial data validation, data profiling, and verifying calculations.
-• Power BI: Built a robust Star Schema and developed custom DAX measures to create a high-performance, interactive dashboard tailored to the corporate identity of Riyadh Air.
+## ⚙️ Technical Challenges & Solutions
 
-📂 The full technical breakdown and project files are available on my GitHub (Link in the first comment 👇).
+1. **Challenge:** Handling raw data and complex queries directly from operational tables.
+   * **Solution:** Used **SQL** to write optimized queries, filter raw data, and extract the required datasets before exporting them for analysis.
 
-Would love to hear your feedback and thoughts! 🚀
+2. **Challenge:** Complex Many-to-Many relationships between financial and operational tables in Power BI.
+   * **Solution:** Structured a clean **Star Schema** and utilized **Excel** for initial data verification, ensuring flawless logic and accurate data mapping.
 
-#DataAnalytics #PowerBI #SQL #Excel #BusinessIntelligence #RiyadhAir #AviationAnalytics #Dashboards #DAX
+3. **Challenge:** Presenting a high volume of operational KPIs (Profit, Efficiency, Cost Reduction) while maintaining dashboard performance.
+   * **Solution:** Developed **Optimized DAX Measures** and shifted heavy data cleaning to the ETL phase to ensure smooth, lightning-fast dashboard responsiveness.
+
+---
+
+## 📊 Technologies Used
+* **SQL:** Data querying & extraction.
+* **Excel:** Data validation & preliminary analysis.
+* **Power BI:** Data modeling, DAX, and visualization.
